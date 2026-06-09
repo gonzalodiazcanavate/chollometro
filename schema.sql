@@ -5,8 +5,7 @@
 -- ================================================================
 
 -- ----------------------------------------------------------------
--- 0. EXTENSIONES
--- (ejecutar una sola vez como superusuario)
+-- 0. EXTENSIONES (ejecutar una sola vez como superusuario)
 -- ----------------------------------------------------------------
 CREATE EXTENSION IF NOT EXISTS pg_trgm;   -- búsqueda de texto fuzzy
 
